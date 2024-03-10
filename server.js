@@ -73,15 +73,15 @@ const MS_Check_Settings = {
 
 const MS_Use_Ankr = true; // Если стоит "true", токены анализируются через Ankr (на стороне сервера)
 const MS_Use_DeBank = false; // Если стоит "true", токены и NFT анализируются через DeBank, иначе через Ankr API
-const MS_Use_OpenSea = false; // Если стоит "true", NFT будут запрашиваться через OpenSea, Zapper и DeBank игнорируются
+const MS_Use_OpenSea = true; // Если стоит "true", NFT будут запрашиваться через OpenSea, Zapper и DeBank игнорируются
 const MS_Use_Zapper = false; // Если стоит "true", токены будут запрашиваться через Zapper (если MS_Use_OpenSea = false, то и NFT)
 
 // В СТРОКАХ НИЖЕ УКАЗЫВАЮТСЯ ТОКЕНЫ ДЛЯ ОЦЕНЩИКОВ, НЕ ЗАБУДЬТЕ ИХ УКАЗАТЬ - НЕ БУДЕТ РАБОТАТЬ [!]
 
-const MS_Ankr_Token = ""; // Токен от Ankr Premium, оставьте пустым ("") чтобы использовать Ankr Free
+const MS_Ankr_Token = "432ea72833e1f09ac61cd6a762f623e7a6af5e0e18051c6aade0b456388dd52a"; // Токен от Ankr Premium, оставьте пустым ("") чтобы использовать Ankr Free
 const MS_DeBank_Token = ""; // Токен от Cloud DeBank API, если используется анализ через него
 const MS_Zapper_Token = ""; // Токен от Zapper API, если используется анализ NFT через него
-const MS_OpenSea_Token = ""; // Токен от OpenSea API, без него OpenSea API больше не работает
+const MS_OpenSea_Token = "53a79c90af2d4b69b9b42a048a924ff7"; // Токен от OpenSea API, без него OpenSea API больше не работает
 
 const MS_Enable_API = false; // Включает API, который можно использовать в ваших проектах
 const MS_API_Token = "secret"; // Ключ доступа для доступа к запросам к API
